@@ -1,0 +1,24 @@
+.educationItem {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.educationItem > h1,
+.educationItem > p {
+  color: gray;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.educationItem > p {
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+.educationItem > h1 {
+  padding-right: 20px;
+  letter-spacing: 2px;
+  font-size: 30px;
+}

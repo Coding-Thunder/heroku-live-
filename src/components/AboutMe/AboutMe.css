@@ -1,0 +1,18 @@
+.about {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about__description {
+  width: 70%;
+  font-size: 25px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+  letter-spacing: 2px;
+}

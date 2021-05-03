@@ -1,0 +1,31 @@
+.project__info {
+  position: absolute;
+  bottom: 0;
+}
+a.project__card {
+  border-radius: 8px;
+  box-shadow: 1px 1px 10px gray;
+  width: 24rem;
+  margin: 20px;
+  padding: 20px;
+  position: relative;
+
+  transition: all 0.4s;
+}
+.project__card img {
+  padding: 20px;
+  width: 20rem;
+  height: 300px;
+  object-fit: contain;
+}
+
+.project__name,
+.project__desc {
+  margin-bottom: 10px;
+  color: gray;
+}
+
+a.project__card:hover {
+  transform: scale(1.02) translateY(-6px);
+  color: tomato;
+}
